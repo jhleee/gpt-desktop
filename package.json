@@ -1,0 +1,22 @@
+{
+  "name": "gpt-desktop",
+  "version": "0.0.1",
+  "description": "GPT on Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-builder build --win"
+  },
+  "repository": "https://github.com/jhleee/gpt-desktop",
+  "keywords": [
+    "Electron",
+    "GPT",
+    "windows"
+  ],
+  "author": "jhleee",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^23.2.1",
+    "electron-builder": "^23.6.0"
+  }
+}
